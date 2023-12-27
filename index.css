@@ -4,10 +4,16 @@
     padding: 0px;
     box-sizing: border-box;
     outline: none;
+   
     
+}
+#structure{
+    border: 5px groove black;
+    height: 500px;
 }
 
 h1{
+
 
     text-align: center;
     font-size: 40px;
@@ -17,11 +23,13 @@ h1{
    
 }
 
+
 #buttons {
     
       
         display: grid;
         border-radius: 20px;
+        margin-top: 20px;
         padding: 20px;
         grid-template-columns: repeat(4,80px);
       }
@@ -42,12 +50,14 @@ h1{
     grid-column:span 4;
     height: 15px;
     width: 320px;
+    margin-top: 50px;
     border-radius: 32px;
     text-align: end;
+    color: #000;
     border:none;
     font-size: 30px;
     padding: 20px;
-    box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px rgba(0,0,0,.16);
+    box-shadow: inset 6px 6px 13px #fff, 6px 6px 13px rgba(0.1,0.9,0.3,.20);
 
 
            }
